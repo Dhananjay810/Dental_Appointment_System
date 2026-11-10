@@ -9,7 +9,7 @@ CSV_PATH = str(BASE_DIR / "doctor_availability.csv")
 
 
 GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
-MODEL_NAME = os.getenv("MODEL_NAME", "gemini-2.5-flash")  # or gemini-1.5-flash
+MODEL_NAME = os.getenv("MODEL_NAME", "gemini-3.8-flash")  # or gemini-1.5-flash
 TEMPERATURE = float(os.getenv("TEMPERATURE", "0.0"))
 
 VALID_SPECIALIZATIONS = [
