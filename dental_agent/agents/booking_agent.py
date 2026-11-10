@@ -1,4 +1,3 @@
-from langchain_xai import ChatXAI
 from langchain_core.prompts import ChatPromptTemplate
 from langgraph.prebuilt import ToolNode
 from dental_agent.models.state import AppointmentState
